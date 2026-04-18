@@ -1,21 +1,21 @@
 {
   "name": "NexFlix",
   "short_name": "NexFlix",
-  "description": "Premium Movie and TV Series Portal",
+  "description": "NexFlix is a premium media streaming PWA offering the latest movies and web series with an immersive, ad-free aesthetic. Watch your favorites anytime, anywhere.",
   "start_url": "https://www.rnexflix.top/",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#000000",
   "theme_color": "#e50914",
   "icons": [
     {
-      "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
+      "src": "https://i.postimg.cc/GtVpSb2s/20260115-230017.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
+      "src": "https://i.postimg.cc/GtVpSb2s/20260115-230017.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
