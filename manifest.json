@@ -1,7 +1,7 @@
 {
-  "name": "NexFlix - Movie Hub",
+  "name": "NexFlix",
   "short_name": "NexFlix",
-  "description": "Watch & Download Latest Movies and Series",
+  "description": "Premium Movie and TV Series Portal",
   "start_url": "https://www.rnexflix.top/",
   "display": "standalone",
   "orientation": "portrait",
@@ -11,19 +11,39 @@
     {
       "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
     {
-      "name": "Search Movies",
-      "short_name": "Search",
-      "url": "https://www.rnexflix.top/search",
+      "name": "Movies",
+      "short_name": "Movies",
+      "url": "https://www.rnexflix.top/search/label/Movie",
+      "icons": [{ "src": "https://www.rnexflix.top/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "TV Series",
+      "short_name": "Series",
+      "url": "https://www.rnexflix.top/search/label/TV%20Series",
+      "icons": [{ "src": "https://www.rnexflix.top/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Anime",
+      "short_name": "Anime",
+      "url": "https://www.rnexflix.top/search/label/Animation",
+      "icons": [{ "src": "https://www.rnexflix.top/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Telegram Channel",
+      "short_name": "Telegram",
+      "url": "https://t.me/rnexflix",
       "icons": [{ "src": "https://www.rnexflix.top/favicon.ico", "sizes": "192x192" }]
     }
   ]
