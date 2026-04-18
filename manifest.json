@@ -1,0 +1,30 @@
+{
+  "name": "NexFlix - Movie Hub",
+  "short_name": "NexFlix",
+  "description": "Watch & Download Latest Movies and Series",
+  "start_url": "https://www.rnexflix.top/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#e50914",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/9F75YmYH/20260205-000023.jpg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Movies",
+      "short_name": "Search",
+      "url": "https://www.rnexflix.top/search",
+      "icons": [{ "src": "https://www.rnexflix.top/favicon.ico", "sizes": "192x192" }]
+    }
+  ]
+}
